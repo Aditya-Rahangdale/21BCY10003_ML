@@ -59,3 +59,5 @@ docker run -p 8000:8000 document-retrieval
 - FastAPI: For high performance and auto-generated documentation
 - SQLite: For simplicity; can be switched to PostgreSQL for production
 - Redis: For caching and optimization
+### Collaborator
+- recruitments@trademarkia.com
