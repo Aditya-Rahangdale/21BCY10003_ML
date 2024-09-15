@@ -4,21 +4,21 @@
 
 ## Setup Instructions
 
-## 1. Local Setup
+## Local Setup
 
-1. *Install dependencies*
+ *Install dependencies*
 
 
 pip install -r requirements.txt
 
 
-2. *Initialize the database:*
+ *Initialize the database:*
 
 
 python -c "from app.models import init_db; init_db()"
 
 
-3. *Run the FastAPI server:*
+ *Run the FastAPI server:*
 
 
 uvicorn app.api:app --reload
@@ -26,10 +26,10 @@ uvicorn app.api:app --reload
 
 Access the API:
 
-- Health check: http://localhost:8000/health
-- API docs: http://localhost:8000/docs
+- Healther  check: http://localhost:8000/health
+- API on docs: http://localhost:8000/docs
 
-## 2. Docker Setup for these
+## . Docker Setup
 
 1. Build the Docker image:
 
