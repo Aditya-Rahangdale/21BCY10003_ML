@@ -26,18 +26,18 @@ uvicorn app.api:app --reload
 
 Access the API:
 
-- Healther  check: http://localhost:8000/health
-- API on docs: http://localhost:8000/docs
+- Healther  checker for localhost: http://localhost:8000/health
+- API on docs retrieved: http://localhost:8000/docs
 
 ## . Docker Setup
 
-1. Build the Docker image:
+1. Build the Docker image for the docker:
 
 
 docker build -t document-retrieval
 
 
-2. Run the Docker container for these:
+2. Run the Docker container for these: the 
 
 
 docker run -p 8000:8000 document-retrieval
